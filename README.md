@@ -4,6 +4,10 @@ Springboot + gRPC + Mysql + Docker
 How to run it :
 
 1. First you need install Docker deamon, Docker compose and SET bash to run from terminal
+ for Windows OS : 
+  https://docs.docker.com/docker-for-windows/
+  https://docs.docker.com/compose/install/
+ 
 2. Git clone to your local machine
 3. Build image :
  cd springboot-grpc-demo
