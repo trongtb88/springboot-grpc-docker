@@ -18,6 +18,11 @@ app-server_1  | 2020-12-02 06:08:41.448  INFO 1 --- [           main] com.thanh.
 app-server_1  | 2020-12-02 06:08:41.450  INFO 1 --- [           main] o.l.springboot.grpc.GRpcServerRunner     : Starting gRPC Server ...
 app-server_1  | 2020-12-02 06:08:41.503  INFO 1 --- [           main] o.l.springboot.grpc.GRpcServerRunner     : 'com.thanh.controller.SeatController' service has been registered.
 app-server_1  | 2020-12-02 06:08:41.803  INFO 1 --- [           main] o.l.springboot.grpc.GRpcServerRunner     : gRPC Server started, listening on port 6565.
+
+6. To see data in mysql database :
+run below command interminal :
+mysql -h localhost -P 3306 --protocol=tcp -u dea_spring_user -p dea_spring_user
+
  
  
  
