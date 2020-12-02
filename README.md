@@ -32,6 +32,10 @@ run below command interminal
 $ mysql -h localhost -P 3306 --protocol=tcp -u dea_spring_user -p dea_spring_user
 ```
 
+To call grpc server from client, you can use BloomGrpc
+- https://github.com/uw-labs/bloomrpc/blob/master/README.md
+Choose proto file
+Paste localhost:6565 to Textbox and run command
  
  
  
