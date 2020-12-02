@@ -1,0 +1,30 @@
+{
+  "groups": [
+    {
+      "name": "app",
+      "type": "com.thanh.AppProperties",
+      "sourceType": "com.thanh.AppProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "app.cinema-column",
+      "type": "java.lang.Integer",
+      "sourceType": "com.thanh.AppProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "app.cinema-row",
+      "type": "java.lang.Integer",
+      "sourceType": "com.thanh.AppProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "app.distance-manhattan",
+      "type": "java.lang.Integer",
+      "sourceType": "com.thanh.AppProperties",
+      "defaultValue": 0
+    }
+  ],
+  "hints": []
+}
