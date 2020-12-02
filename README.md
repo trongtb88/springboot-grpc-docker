@@ -16,7 +16,7 @@ Build image :
 $ cd springboot-grpc-demo
 $ docker build -t spring-grpc-demo .
 ```
-It will take some minutes to download dependencies and build image.
+It will take some minutes to download dependencies and build image, after build successfuly, you need to run 2 below commands.
 
 ```sh
 $ cd ..
