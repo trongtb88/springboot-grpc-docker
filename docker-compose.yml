@@ -6,7 +6,7 @@ services:
   app-server:
     # Configuration for building the docker image for the backend service
     build:
-      context: spring-grpc-demo # Use an image built from the specified dockerfile in the `polling-app-server` directory.
+      context: spring-grpc-demo # Use an image built from the specified dockerfile in the `springboot-grpc-demo` directory.
       dockerfile: Dockerfile
     ports:
       - "6565:6565" # Forward the exposed port 6565 on the container to port 6565 on the host machine
